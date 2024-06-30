@@ -1,0 +1,213 @@
+2.1	Software Requirements
+
+•	Operating system	: Windows OS
+•	Programming
+language	: PYTHON
+•	Platform	: Google Colaboratory
+
+2.2	Hardware Requirements
+
+•	Processor	: Intel core processor 2.6.0 GHZ
+•	RAM	: 8GB
+•	Hard disk	: 430 GB
+•	Compact Disk	: 650 Mb
+•	Keyboard	: Standard keyboard
+•	Monitor	: 15 inch colour monitor
+
+2.3	Software Description
+
+Python
+
+Python is a high-level, versatile, and widely used programming language known for its simplicity and readability. It is commonly used in a variety of domains, including web development, data analysis, scientific computing, machine learning, artificial intelligence, and more. Python is one of the most popular programming languages for machine learning projects, and there are several compelling reasons for its widespread use in this field:
+1.	Extensive Libraries and Frameworks
+
+Python has a rich ecosystem of machine learning libraries and frameworks, such as TensorFlow, Keras, PyTorch, Scikit-learn, and many others. These libraries provide pre-
+ 
+implemented algorithms, tools, and APIs that streamline the development of machine learning models.
+2.	Ease of Learning
+
+Python is known for its simplicity and readability, which makes it an excellent choice for beginners in the field of machine learning. Its clean and concise syntax allows developers to focus on the machine learning concepts rather than getting bogged down in complex code.
+3.	Versatility
+
+Python is a versatile language, meaning you can use it for various stages of a machine learning project, from data preprocessing and exploration to model development and deployment. This versatility reduces the need to switch between languages or tools.
+4.	Strong Data Analysis and Visualization Capabilities
+
+Python has powerful data analysis and visualization libraries, including pandas, NumPy, and Matplotlib. These tools are essential for tasks like data cleaning, feature engineering, and creating informative visualizations.
+5.	Open Source
+
+Python is open-source, which means it's free to use and has a vast community contributing to its development. This reduces project costs and allows for customization.
+6.	Cross-Platform Compatibility
+
+Python is a cross-platform language, so machine learning projects developed on one operating system can easily be transferred and run on others, such as Windows, MacOS, or Linux.
+7.	Scalability
+
+Python can be used for small-scale projects, and it's also suitable for large-scale, production-ready machine learning systems when combined with frameworks like TensorFlow and PyTorch.
+ 
+8.	Community Packages
+
+Python's extensive package ecosystem goes beyond machine learning. You can easily integrate machine learning components with web development, databases, and other domains, expanding the capabilities of your project.
+2.4	Google Colab
+
+Google Colab, short for Google Colaboratory, is a popular cloud-based platform for running Python projects, especially in the fields of data science and machine learning. There are several reasons why you might consider using Google Colab for your Python project:
+1.	Free Cloud Computing
+
+Google Colab provides free access to cloud computing resources. It offers a free GPU (Graphics Processing Unit) for running deep learning and data-intensive tasks, which can be expensive to set up and maintain on your local machine.
+2.	No Setup Required
+
+You don't need to set up your development environment. It comes pre-installed with many commonly used data science libraries such as NumPy, Pandas, Matplotlib, and TensorFlow, making it easy to start working on your project without spending time configuring your local environment.
+3.	Collaboration
+
+Google Colab is built for collaboration. You can easily share your Colab notebooks with others, and multiple users can work on the same notebook simultaneously, making it a great tool for team projects.
+4.	Integration with Google Drive
+
+You can save your Colab notebooks in Google Drive and access them from anywhere. This seamless integration with Google Drive also allows you to store datasets and other project- related files.
+ 
+5.	Access to Google Services
+
+You can make use of other Google services such as BigQuery for data analysis, Google Sheets for data storage, and more, directly within your Colab notebook.
+6.	Easy to Share
+
+Sharing your work is simplified through shareable links. You can publish your notebook or share it privately, making it an excellent tool for education and data science competitions.
+7.	Interactive Documentation
+
+Colab notebooks are a great way to create interactive documentation for your Python project. You can mix code, visualizations, and explanatory text in the same document.
+8.	Hardware Acceleration
+
+As mentioned earlier, Colab provides free access to GPUs, which is crucial for training deep learning models that require significant computational power.
+9.	Flexibility
+
+You're not limited to just Python; you can run code in other languages and even shell commands within a Colab notebook.
+
+
+2.5	Libraries Used
+
+ 
+Tools Employed
+ 
+
+•	NumPy
+•	Pandas
+•	Matplotlib
+•	Pickle
+•	Sklearn
+•	Soundfile
+•	Librosa
+ 
+NumPy
+•	NumPy is a Python library for scientific computing.
+•	It provides a high-performance implementation of multidimensional arrays and matrices, as well as a large collection of mathematical functions for operating on those arrays.
+•	NumPy is widely used in data science, machine learning, and scientific computing.
+Features
+
+•	Multidimensional arrays: NumPy provides a high-performance implementation of multidimensional arrays, which are essential for many scientific and engineering applications.
+•	Mathematical functions: NumPy provides a large collection of mathematical functions for operating on multidimensional arrays, including linear algebra, statistical, and Fourier transform functions.
+•	Broadcasting: NumPy provides a powerful broadcasting mechanism that allows for efficient operations on arrays of different shapes.
+
+ 
+Pandas
+
+
+
+
+
+
+Features
+ 
+
+•	Pandas is a Python library for data analysis.
+•	It is built on top of the NumPy library and provides high-level data structures and operations for manipulating numerical data and time series.
+•	Pandas is widely used in data science, machine learning, and financial analysis.
+
+
+•	Data structures: Pandas provides two main data structures for storing and manipulating data: Series and DataFrame. A Series is a one-dimensional labeled array, similar to a Python list. A DataFrame is a two-dimensional labeled array, similar to a Python dictionary.
+•	Data manipulation: Pandas provides a wide range of functions for manipulating data, including sorting, filtering, grouping, and aggregating.
+•	Data visualization: Pandas integrates with Matplotlib, a Python library for data visualization, to provide easy-to-use plotting functions.
+ 
+•	Time series analysis: Pandas provides a variety of tools for working with time series data, such as date parsing, time shifting, and resampling.
+
+
+Matplotlib
+•	Matplotlib is a Python library for data visualization.
+•	It provides a wide range of plotting functions for creating static, animated, and interactive visualizations.
+•	Matplotlib is widely used in data science, machine learning, and scientific computing.
+Features
+
+•	Comprehensive set of plotting functions: Matplotlib provides a wide range of plotting functions for creating line plots, bar plots, scatter plots, histograms, and many other types of visualizations.
+•	Easy to use: Matplotlib has a simple and intuitive interface, making it easy to learn and use.
+•	Flexible and customizable: Matplotlib is highly customizable, allowing users to create visualizations that meet their specific needs.
+•	Well-documented: Matplotlib is well-documented, with a comprehensive user guide and tutorials.
+
+Scikitlearn
+•	Scikit-learn is a free software machine learning library for the Python programming language.
+•	It features various classification, regression, clustering and dimensionality reduction algorithms including support vector machines, random forests, gradient boosting, k- means, etc.
+•	Scikit-learn is widely used in data science, machine learning, and natural language processing.
+ 
+Features
+
+•	Comprehensive set of algorithms: Scikit-learn provides a wide range of machine learning algorithms for classification, regression, clustering, and dimensionality reduction.
+•	Easy to use: Scikit-learn has a consistent and user-friendly interface, making it easy to learn and use.
+•	Efficient and scalable: Scikit-learn is written in a performance-critical fashion, making it efficient and scalable for large datasets.
+
+Pickle
+The pickle library is a built-in Python module that provides a mechanism for serializing
+and deserializing Python object structures. In other words, it allows Python objects to be converted into a byte stream that can be stored or transmitted, and then later reconstructed back into the original object.
+Features
+
+•	Serialization of most Python objects: The pickle library can serialize almost any Python object, including built-in types, user-defined classes, and instances of those classes.
+•	Recursive object support: The pickle library can handle recursive objects, which are objects that contain references to themselves.
+•	Object sharing: The pickle library can share objects between different serialization and deserialization operations. This means that if an object is pickled multiple times, only a single copy of the object will be stored.
+•	Portability: The pickle library is portable between different versions of Python. This means that a pickled object can be deserialized using a different version of Python than the one used to pickle it.
+
+
+Soundfile
+
+Soundfile is a powerful library that we have already used to read WAV file s for the python sound device example. Any file format supported by libsndfile (lib sound file) can be handled by
+ 
+soundfile. Eventhough soundfile won’t play audio for you , it can be used to convert between all these different types.
+Features
+
+•	Reading and Writing Audio Files: soundfile.read (file, frames=-1, start=0, stop=None, dtype='float64', always_2d=False, fill_value=None, out=None). Reads audio data from a file. soundfile.write (file, data, sample rate, subtype=None, endian=None, format=None, closefd=True). Writes audio data to a file.
+•	Supports Various Audio Formats: soundfile supports reading and writing various audio file formats, including WAV, FLAC, AIFF, AU, and more.
+•	Flexible Data Types: It allows you to specify the data type of the audio samples (e.g., float32, int16) while reading or writing files.
+•	Easy-to-Use Interface: soundfile provides a user-friendly interface for reading and writing audio files, making it accessible for both beginners and experienced developers. When using soundfile, make sure to install it using a package manager like pip (pip install soundfile).
+Librosa
+
+Librosa is a python package for music and audio analysis. Librosa is basically used when we work with audio data like in music generation (using LSTM’s), automatic speech recognition. It provides the building block necessary to create music information retrieval systems. We can extract the features  of audio from the librosa library in python. Chroma feature extraction techniques commonly used in music signal processing to represent the harmonic content of an audio signal.
+Features
+
+•	Audio File Loading: Librosa can load audio files in various formats, including WAV, MP3, FLAC, and more.
+•	Feature Extraction:
+Spectral Features: Librosa can extract spectral features like Mel-frequency cepstral coefficients (MFCCs), mel-scaled spectrograms, chroma feature, and spectral contrast.
+ 
+Rhythm Features: Extract rhythm-related features such as tempo, beat frames, and beat events.
+Tonnetz Features: Calculate the tonnetz features, which represent tonal content in audio signals.
+•	Visualization:
+Waveform Plotting: Visualize audio waveforms using matplotlib.
+Spectrogram Plotting: Plot spectrograms to visualize the frequency content of audio signals over time represent tonal content in audio signals.
+ 
+2.6	Dataset Description Title
+Speech Emotion Recognition
+
+Dataset
+
+A dataset is a collection of related items of related data that maybe accessed individually or in combination or managed as a whole entity. A dataset is organized into some type of data structure. Datasets are also used to store information needed by applications or operating system itself variables or parameters.
+Data Source
+
+We use “Kaggle” as our dataset store. In which we use Ryerson Audio Visual Database of Emotional Speech and Song (RAVDESS), a speech audio – only files (16bit, 48kHz .wav) from the RAVDESS. Full dataset and song, audio and video (24.8 GB) available from Zenodo (an open repository for all scholarship, enabling researchers from all disciplines to share and preserve their research outputs, regardless of size or format). The portion of the RAVDESS dataset contains 1440 files: 60 trails per actor x 24 actors = 1440. The RAVDESS contains 24 professional actors (12 males, 12 females), vocalizing two lexically matching statements in a neutral North American accent. Speech emotions includes Calm, Happy, Sad, Angry, Fearful, Surprise and Disgust expressions. Each expression is produced at two levels of emotional intensity (normal, strong) with an additional neutral expression.
+•	File naming convention
+Each of the 1440 files has a unique filename. The filename consists of a 7-part numerical identifier (e.g., 03-01-06-01-02-01-12.wav). These identifiers define the stimulus characteristics.
+•	File name identifiers
+Modality (01= full-AV, 02= video-only, 03= audio-only).
+Vocal channel (01= speech, 02= song).
+Emotion (01= neutral, 02= calm, 03= happy, 04= sad, 05= angry, 06= fearful, 07=
+disgust, 08= surprised).
+ 
+Emotional intensity (01= normal, 02= strong). Note: there is no strong intensity for “neutral” emotion.
+Statement (01= “kids are talking by the door”, 02= “dogs are sitting by the door”). Repetition (01= 1st repetition, 02= 2nd repetition).
+Actor (01 to 24. Odd numbered actors are male, even numbered actors are females).
+
+
+
+Acknowledgement
+
+This dataset is created for the use of identifying speaker’s emotion which gives us a high accuracy up to 70-80%.
