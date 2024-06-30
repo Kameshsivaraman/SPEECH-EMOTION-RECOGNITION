@@ -4,6 +4,8 @@ MINI PROJECT
 
 
 ABSTRACT
+
+
 Communication is a key to express one’s thoughts and ideas clearly. Amongst all forms of 
 communication, Speech is the most preferred and powerful form of communication in humans. 
 The era of the Internet of Things (IOT) is rapidly advancing in bringing more intelligent systems 
